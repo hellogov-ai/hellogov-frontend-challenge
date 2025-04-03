@@ -25,4 +25,3 @@ Implement the passport renewal requirements page as shown in the Figma design.
 - The `fetchPassportRequirements()` function is available in utils/api.ts
 
 Good luck!
-# hellogov-frontend-challenge
