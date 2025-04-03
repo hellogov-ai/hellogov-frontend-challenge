@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PASSPORT RENEWAL REQUIREMENTS PAGE - FRONTEND INTERVIEW CHALLENGE
 
-## Getting Started
+## Task
 
-First, run the development server:
+Implement the passport renewal requirements page as shown in the Figma design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Fetch and display passport renewal requirements from the provided API
+2. Match the layout and styling from the Figma design
+3. Add appropriate loading state while data is being fetched
+4. Add appropriate error state when fetch fails
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Time limit
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+30 minutes
 
-## Learn More
+## Bonus (if time permits)
 
-To learn more about Next.js, take a look at the following resources:
+- Add subtle animations when requirements cards appear
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Figma Design: [HelloGov Interview](https://www.figma.com/design/XfvaklCzvbMD3Y2DTX5Ns7/HelloGov-Interview?node-id=0-9&t=SrWFOR59tK9wwoEq-1)
+- The `fetchPassportRequirements()` function is available in utils/api.ts
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Good luck!
+# hellogov-frontend-challenge
